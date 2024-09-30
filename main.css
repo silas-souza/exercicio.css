@@ -1,0 +1,170 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+    color: #f5f6fa;
+    text-decoration:none ;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px; 
+    width: 100%;
+
+}
+
+.articles article  {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+    display: flex;
+}
+
+section h2 ,
+.article article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+
+.articles article p 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+    
+
+}
+
+#sports {
+    background-image: URL(imagens/grama.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#sports .articles article a {
+    background-color: mediumseagreen;
+}
+
+#economy {
+    background-image: URL(imagens/economia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+}    
+
+#economy .articles article a {
+    background-color:rgb(235, 144, 8);
+    
+}
+
+#technology {
+    background-image: URL(imagens/piu.png);
+    width: 100%;
+    image-rendering: auto;
+    color:whitesmoke;
+    
+
+}
+
+#technology .articles article a {
+    background-color: black;
+    color:white;
+}
+
+#entertainment {
+    background-image: url(imagens/cinema2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:rgb(249, 249, 251);
+
+}
+
+#entertainment .articles article a {
+    background-color: brown;
+    color: rgb(246, 195, 176);
+}
+
+
+#science {
+    background-image: url(imagens/dna.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+}
+
+
+
+#science .articles article a {
+    background-color: black;
+}
+
+
+
+#health {
+    background-image: url(imagens/saude.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    color:rgb(78, 38, 38);
+}
+
+#health .articles article a {
+    background-color: gray;
+}
